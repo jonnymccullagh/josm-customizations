@@ -20,15 +20,16 @@ area[building=yes]
     width: 3;
 }
 
-area[building=farm_auxillary]
+area[building=farm_auxiliary]
 {
-    text: eval("Farm Aux");
+    text: eval("aux");
     text-color: black;
     font-size: 9;
     z-index: 1;
     color: #FF9E00;
     fill-color: #FF9E00;
     width: 3;
+    dashes: 10,2;
 }
 
 area[building=shed]
@@ -37,10 +38,12 @@ area[building=shed]
     text-color: black;
     font-size: 9;
     z-index: 1;
-    color: #e90909;
-    fill-color: #e90909;
+    color: #acacac;
+    fill-color: #acacac;
     width: 3;
+    dashes: 10,2;
 }
+
 
 
 way[highway=service][service=driveway]
