@@ -51,9 +51,9 @@ way[highway=service][service=driveway]
     text: eval("Driveway");
     font-size: 12;
     z-index: 1;
-    color: red;
-    width: 5;
-    dashes: 20,4;
+    color: rgb(148, 151, 123);
+    width: 3;
+    dashes: 10,2;
     dashes-background-color: #FFFF00;
 }
 way[highway=track]
@@ -64,7 +64,7 @@ way[highway=track]
     color: #693300;
     width: 5;
     dashes: 20,4;
-    dashes-background-color: #693300;
+    dashes-background-color: #FFFF00;
 }
 
 
