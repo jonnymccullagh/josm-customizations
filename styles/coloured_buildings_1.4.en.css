@@ -1,0 +1,480 @@
+meta
+{
+    title: "Coloured Buildings.en";
+    author: "riiga";
+    version: "1.02_2021-09-18";
+    description: "Style to classify buildings (English)";
+    link: "https://josm.openstreetmap.de/wiki/Styles/Coloured_buildings_en";
+}
+
+/* Start additions by jonny */
+
+area[building=yes]
+{
+    text: eval("building yes");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #8a0000;
+    fill-color: #8a0000;
+    width: 3;
+}
+
+area[building=farm_auxiliary]
+{
+    text: eval("aux");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FF9E00;
+    fill-color: #FF9E00;
+    width: 3;
+    dashes: 10,2;
+}
+
+area[building=shed]
+{
+    text: eval("Shed");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #acacac;
+    fill-color: #acacac;
+    width: 3;
+    dashes: 10,2;
+}
+
+
+
+way[highway=service][service=driveway]
+{
+    text: eval("Driveway");
+    font-size: 12;
+    z-index: 1;
+    color: rgb(148, 151, 123);
+    width: 3;
+    dashes: 10,2;
+    dashes-background-color: #FFFF00;
+}
+way[highway=track]
+{
+    text: eval("Track");
+    font-size: 12;
+    z-index: 1;
+    color: #693300;
+    width: 5;
+    dashes: 20,4;
+    dashes-background-color: #FFFF00;
+}
+
+
+
+/* End additions by jonny */
+
+area[building=residential]
+{
+    text: eval("Residential");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FFFFFF;
+    fill-color: #FFFFFF;
+    width: 3;
+    dashes: 10,2;
+}
+
+area[building=house]
+{
+    text: eval("House");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FFF88B;
+    fill-color: #FFF88B;
+    width: 3;
+    dashes: 10,2;
+}
+
+area[building=detached]
+{
+    text: eval("Detached");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FFFD36;
+    fill-color: #FFFD36;
+    width: 3;
+}
+area[building=semidetached_house]
+{
+    text: eval("Semidetached");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FFFC00;
+    fill-color: #FFFC00;
+    width: 3;
+}
+area[building=terrace]
+{
+    text: eval("Terrace");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FFFC00;
+    fill-color: #FFFC00;
+    width: 3;
+}
+area[building=apartments]
+{
+    text: eval("Apartments");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FF9E00;
+    fill-color: #FF9E00;
+    width: 3;
+}
+area[building=garage]
+{
+    text: eval("Garage");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #A37237;
+    fill-color: #A37237;
+    width: 3;
+}
+area[building=garages]
+{
+    text: eval("Garages");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #A37237;
+    fill-color: #A37237;
+    width: 3;
+}
+
+area[building=parking]
+{
+    text: eval("Parking");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #A37237;
+    fill-color: #A37237;
+    width: 3;
+}
+area[building=hotel]
+{
+    text: eval("Hotel");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #F26100;
+    fill-color: #F26100;
+    width: 3;
+}
+
+area[building=commercial]
+{
+    text: eval("Commercial");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #D76EFF;
+    fill-color: #D76EFF;
+    width: 3;
+}
+area[building=warehouse]
+{
+    text: eval("Warehouse");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #D76EFF;
+    fill-color: #D76EFF;
+    width: 3;
+}
+area[building=toilets]
+{
+    text: eval("Toilets");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #D76EFF;
+    fill-color: #D76EFF;
+    width: 3;
+}
+area[building=industrial]
+{
+    text: eval("Industrial");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #C224FF;
+    fill-color: #C224FF;
+    width: 3;
+}
+
+area[building=church]
+{
+    text: eval("Church");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #9224FF;
+    fill-color: #9224FF;
+    width: 3;
+}
+area[building=chapel]
+{
+    text: eval("Chapel");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #9224FF;
+    fill-color: #9224FF;
+    width: 3;
+}
+area[building=mosque]
+{
+    text: eval("Mosque");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #9224FF;
+    fill-color: #9224FF;
+    width: 3;
+}
+area[building=synagogue]
+{
+    text: eval("Synagogue");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #9224FF;
+    fill-color: #9224FF;
+    width: 3;
+}
+area[building=temple]
+{
+    text: eval("Temple");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #9224FF;
+    fill-color: #9224FF;
+    width: 3;
+}
+area[building=cathedral]
+{
+    text: eval("Cathedral");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #7D1DDD;
+    fill-color: #7D1DDD;
+    width: 3;
+}
+
+area[building=retail]
+{
+    text: eval("Retail");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #A5FC4E;
+    fill-color: #A5FC4E;
+    width: 3;
+}
+
+area[building=supermarket]
+{
+    text: eval("Supermarket");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #A5FC4E;
+    fill-color: #A5FC4E;
+    width: 3;
+}
+area[building=kiosk]
+{
+    text: eval("Kiosk");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #A5FC4E;
+    fill-color: #A5FC4E;
+    width: 3;
+}
+
+area[building=roof]
+{
+    text: eval("Roof");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #CBA371;
+    fill-color: #CBA371;
+    width: 3;
+}
+
+area[building=hospital]
+{
+    text: eval("Hospital");
+    text-color: black;
+    font-size:10;
+    z-index: 1;
+    color: #FF5566;
+    fill-color: #FF5566;
+    width: 3;
+}
+area[building=fire_station]
+{
+    text: eval("Fire station");
+    text-color: black;
+    font-size:10;
+    z-index: 1;
+    color: #FF5566;
+    fill-color: #FF5566;
+    width: 3;
+}
+area[amenity=hospital]
+{
+    color: #FF5566;
+    width: 3;
+}
+area[building=school]
+{
+    text: eval("School");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #884CFF;
+    fill-color: #884CFF;
+    width: 3;
+}
+area[building=kindergarten]
+{
+    text: eval("Kindergarten");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #884CFF;
+    fill-color: #884CFF;
+    width: 3;
+}
+area[amenity=school]
+{
+    color: #884CFF;
+    width: 3;
+}
+area[building=university]
+{
+    text: eval("University");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #7834FF;
+    fill-color: #7834FF;
+    width: 2;
+}
+area[amenity=university]
+{
+    color: #7834FF;
+    width: 3;
+}
+area[building=civic]
+{
+    text: eval("Civic");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FF2238;
+    fill-color: #FF2238;
+    width: 3;
+    dashes: 10,2;
+}
+area[building=train_station]
+{
+    text: eval("Train station");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #FF2238;
+    fill-color: #FF2238;
+    width: 3;
+}
+
+area[building=dormitory]
+{
+    text: eval("Dormitory");
+    text-color: black;
+    font-size: 9;
+    z-index: 1;
+    color: #F07B2D;
+    fill-color: #F07B2D;
+    width: 3;
+}
+
+area[building=yes][amenity][building!=church][building!=cathedral]
+{
+    text: "amenity";
+    text-color: black;
+    dashes: 20,4;
+    font-size: 10;
+    z-index: 1;
+    color: #FF2238;
+    fill-color: #FF2238;
+    width: 3;
+}
+
+area[building=yes][shop]
+{
+    text: "shop";
+    text-color: black;
+    dashes: 20,4;
+    font-size: 10;
+    z-index: 1;
+    color: #3E43D2;
+    fill-color: #3E43D2;
+    width: 3;
+}
+
+area[building=yes][office]
+{
+    text: "office";
+    text-color: black;
+    font-size: 10;
+    z-index: 1;
+    color: #39D237;
+    fill-color: #39D237;
+    width: 3;
+    dashes: 20,4;
+}
+/* highlight wrong schoolbuildings */
+way[building=yes][amenity=school]
+{
+    text: eval("set building=school");
+    font-size: 12;
+    z-index: 1;
+    color: red;
+    width: 5;
+    dashes: 20,4;
+    dashes-background-color: #FFFF00;
+}
+
+/* highlight wrong church */
+way[building=yes][amenity=place_of_worship]
+{
+    text: eval("set building=church");
+    font-size: 12;
+    z-index: 1;
+    color: red;
+    width: 5;
+    dashes: 20,4;
+    dashes-background-color: #FFFF00;
+}
