@@ -2,8 +2,8 @@ meta
 {
     title: "Coloured Buildings.en";
     author: "riiga";
-    version: "1.03_2023-04-24";
-    description: "Styles to help validate buildings (English)";
+    version: "1.02_2021-09-18";
+    description: "Style to classify buildings (English)";
     link: "https://josm.openstreetmap.de/wiki/Styles/Coloured_buildings_en";
 }
 
@@ -32,30 +32,6 @@ area[building=farm_auxiliary]
     dashes: 10,2;
 }
 
-area[building=barn]
-{
-    text: eval("aux");
-    text-color: black;
-    font-size: 9;
-    z-index: 1;
-    color: #553501;
-    fill-color: #553501;
-    width: 3;
-    dashes: 10,2;
-}
-
-area[building=greenhouse]
-{
-    text: eval("aux");
-    text-color: black;
-    font-size: 9;
-    z-index: 1;
-    color: #0f9200;
-    fill-color: #0f9200;
-    width: 3;
-    dashes: 10,2;
-}
-
 area[building=shed]
 {
     text: eval("Shed");
@@ -68,18 +44,7 @@ area[building=shed]
     dashes: 10,2;
 }
 
-area[building=ruins]
-{
-    text: eval("ruins");
-    text-color: white;
-    font-size: 9;
-    z-index: 1;
-    color: #000;
-    fill-color: #2c2a2a;
-    width: 3;
-    dashes: 10,2;
-    dashes-background-color: #717171;
-}
+
 
 way[highway=service][service=driveway]
 {
@@ -91,7 +56,6 @@ way[highway=service][service=driveway]
     dashes: 10,2;
     dashes-background-color: #FFFF00;
 }
-
 way[highway=track]
 {
     text: eval("Track");
@@ -102,6 +66,8 @@ way[highway=track]
     dashes: 20,4;
     dashes-background-color: #FFFF00;
 }
+
+
 
 /* End additions by jonny */
 

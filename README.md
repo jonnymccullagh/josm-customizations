@@ -26,3 +26,6 @@ This can be added to JOSM using:
 - Click 'Okay' to exit the Preferences dialog
 
 
+## Toolbar Icons
+I couldn't find a way to export the shortcuts I have on my toolbar so screenshotting here for future reference. In JSOM visit Edit > Preferences > Toolbar.
+![Alt text](./images/toolbar-icons.jpg "Custom JOSM Toobar Icons")
