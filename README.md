@@ -27,5 +27,19 @@ This can be added to JOSM using:
 
 
 ## Toolbar Icons
-I couldn't find a way to export the shortcuts I have on my toolbar so screenshotting here for future reference. In JSOM visit Edit > Preferences > Toolbar.
+I couldn't find a way to export the shortcuts I have on my toolbar so screenshotting here for future reference. In JSOM visit `Edit > Preferences > Toolbar`.
 ![Alt text](./images/toolbar-icons.jpg "Custom JOSM Toobar Icons")
+
+## Keyboard Shortcuts
+I like to use function keys as shortcuts to label buildings. It seems difficult to manage this in the `Edit > Preferences > Keyboards` 
+![Alt text](./images/josm-keyboard-shortcut.jpg "Set Shortcut")
+
+My alternative is to right-click the toolbar icon and choose 'Edit Shortcut'
+![Alt text](./images/edit-shortcut.png "Edit Shortcut")
+- untick `use default`
+- untick `Disable`
+- Choose the shortcut key e.g. F5
+- choose **Okay**
+![Alt text](./images/shortcut-f8.jpg "Set Shortcut")
+
+
