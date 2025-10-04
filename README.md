@@ -28,6 +28,7 @@ This can be added to JOSM using:
 
 ## Toolbar Icons
 I couldn't find a way to export the shortcuts I have on my toolbar so screenshotting here for future reference. In JSOM visit `Edit > Preferences > Toolbar`.
+
 ![Alt text](./images/toolbar-icons.jpg "Custom JOSM Toobar Icons")
 
 ## Keyboard Shortcuts
@@ -35,11 +36,37 @@ I like to use function keys as shortcuts to label buildings. It seems difficult 
 ![Alt text](./images/josm-keyboard-shortcut.jpg "Set Shortcut")
 
 My alternative is to right-click the toolbar icon and choose 'Edit Shortcut'
+
 ![Alt text](./images/edit-shortcut.png "Edit Shortcut")
 - untick `use default`
 - untick `Disable`
 - Choose the shortcut key e.g. F5
 - choose **Okay**
+
 ![Alt text](./images/shortcut-f8.jpg "Set Shortcut")
 
+## Autokey
+
+On Linux I am using Autokey to provide keyboard shortcuts for terracing buildings. An example script for this is below:
+```python
+import time
+keyboard.send_keys("<shift>+t")
+time.sleep(0.3)
+keyboard.send_keys("<tab>")
+keyboard.send_keys("<tab>")
+keyboard.send_keys("<tab>")
+keyboard.send_keys("<backspace>")
+keyboard.send_keys("4")
+time.sleep(0.1)
+keyboard.send_keys("<enter>")
+time.sleep(0.1)
+keyboard.send_keys("<f5>")
+```
+I set this to only apply to the JOSM window (identified as `org-openstreetmap-josm-gui-MainApplication.org-openstreetmap-josm-gui-MainApplication`) and set it to the shortcut key Ctrl+4.
+I create these for all the number keys on the keypad. In the example above the F5 is to set the building type to house.
+
+## Plugins
+I like to use the building_tools and terracer plugins.
+Once installed I set the `buildings_tools.autoselect` preference to `true` as shown below:
+![Alt text](./images/building-auto-select.jpg "Autoselect building")
 
